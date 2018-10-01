@@ -1,0 +1,109 @@
+
+SnakeGirl.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CardShadow
+  rotate: false
+  xy: 324, 2
+  size: 450, 36
+  orig: 450, 36
+  offset: 0, 0
+  index: -1
+Girl
+  rotate: false
+  xy: 2, 257
+  size: 860, 752
+  orig: 860, 752
+  offset: 0, 0
+  index: -1
+Left Hend
+  rotate: false
+  xy: 864, 629
+  size: 145, 380
+  orig: 145, 380
+  offset: 0, 0
+  index: -1
+Snake Body 1
+  rotate: false
+  xy: 324, 65
+  size: 296, 190
+  orig: 296, 190
+  offset: 0, 0
+  index: -1
+Snake Body 2
+  rotate: true
+  xy: 864, 391
+  size: 236, 141
+  orig: 236, 141
+  offset: 0, 0
+  index: -1
+Snake Head 1
+  rotate: true
+  xy: 864, 202
+  size: 187, 132
+  orig: 187, 132
+  offset: 0, 0
+  index: -1
+Snake Head 2
+  rotate: false
+  xy: 2, 26
+  size: 320, 229
+  orig: 320, 229
+  offset: 0, 0
+  index: -1
+Snake Head 3
+  rotate: false
+  xy: 796, 40
+  size: 153, 160
+  orig: 153, 160
+  offset: 0, 0
+  index: -1
+Snake Overlay 3
+  rotate: true
+  xy: 622, 85
+  size: 170, 172
+  orig: 170, 172
+  offset: 0, 0
+  index: -1
+
+SnakeGirl2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CardBack
+  rotate: false
+  xy: 2, 135
+  size: 496, 840
+  orig: 496, 840
+  offset: 0, 0
+  index: -1
+CardIcons
+  rotate: false
+  xy: 500, 135
+  size: 496, 840
+  orig: 496, 840
+  offset: 0, 0
+  index: -1
+Snake Body 3
+  rotate: false
+  xy: 2, 2
+  size: 169, 131
+  orig: 169, 131
+  offset: 0, 0
+  index: -1
+
+SnakeGirl3.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+vFX
+  rotate: false
+  xy: 2, 2
+  size: 625, 444
+  orig: 625, 444
+  offset: 0, 0
+  index: -1
