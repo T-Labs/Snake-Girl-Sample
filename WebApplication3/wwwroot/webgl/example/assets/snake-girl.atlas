@@ -1,5 +1,5 @@
 
-SnakeGirl.png
+snake-girl.png
 size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
@@ -68,7 +68,7 @@ Snake Overlay 3
   offset: 0, 0
   index: -1
 
-SnakeGirl2.png
+snake-girl2.png
 size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
@@ -95,7 +95,7 @@ Snake Body 3
   offset: 0, 0
   index: -1
 
-SnakeGirl3.png
+snake-girl3.png
 size: 1024,512
 format: RGBA8888
 filter: Linear,Linear
