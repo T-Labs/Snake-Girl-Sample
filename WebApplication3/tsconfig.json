@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "none",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outFile": "wwwroot/build/spine-webgl.js",
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": [
+    "wwwroot/core/src/**/*",
+    "wwwroot/webgl/src/**/*"
+  ],
+  "exclude": [
+    "wwwroot/canvas",
+    "wwwroot/widget",
+    "wwwroot/threejs",
+    "wwwroot/build"
+  ]
+}
