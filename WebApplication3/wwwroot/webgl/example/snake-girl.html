@@ -26,7 +26,7 @@
       <span>Skin:</span><select id="skinList"></select>
       <span>Vertex Effect:</span><select id="effectList"></select>
       <span>Debug:</span><input type="checkbox" id="debug">
-      <div>
+    </div>
   </center>
 </body>
 <script>
@@ -77,18 +77,6 @@
 
     // Tell AssetManager to load the resources for each model, including the exported .json file, the .atlas file and the .png
     // file for the atlas. We then wait until all resources are loaded in the load() method.
-    assetManager.loadText("assets/spineboy-ess.json");
-    assetManager.loadTextureAtlas("assets/spineboy.atlas");
-    assetManager.loadText("assets/tank-pro.json");
-    assetManager.loadTextureAtlas("assets/tank.atlas");
-    assetManager.loadText("assets/goblins-pro.json");
-    assetManager.loadTextureAtlas("assets/goblins.atlas");
-    assetManager.loadText("assets/vine-pro.json");
-    assetManager.loadTextureAtlas("assets/vine.atlas");
-    assetManager.loadText("assets/stretchyman-pro.json");
-    assetManager.loadTextureAtlas("assets/stretchyman.atlas");
-    assetManager.loadText("assets/coin-pro.json");
-    assetManager.loadTextureAtlas("assets/coin.atlas");
     assetManager.loadText("assets/snake-girl.json");
     assetManager.loadTextureAtlas("assets/snake-girl.atlas");
     requestAnimationFrame(load);
@@ -97,12 +85,6 @@
   function load() {
     // Wait until the AssetManager has loaded all resources, then load the skeletons.
     if (assetManager.isLoadingComplete()) {
-      skeletons["spineboy"] = loadSkeleton("spineboy-ess", "run", false);
-      skeletons["tank"] = loadSkeleton("tank-pro", "drive", false);
-      skeletons["goblins"] = loadSkeleton("goblins-pro", "walk", false, "goblin");
-      skeletons["vine"] = loadSkeleton("vine-pro", "grow", false);
-      skeletons["stretchyman"] = loadSkeleton("stretchyman-pro", "sneak", false);
-      skeletons["coin"] = loadSkeleton("coin-pro", "rotate", false);
       skeletons["snake-girl"] = loadSkeleton("snake-girl", "animation", false);
       setupUI();
       requestAnimationFrame(render);
