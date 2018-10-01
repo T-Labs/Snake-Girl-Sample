@@ -4,16 +4,15 @@
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "outFile": "wwwroot/build/spine-widget.js",
+    "outFile": "wwwroot/build/spine-webgl.js",
     "sourceMap": true,
     "declaration": true
   },
   "include": [
     "wwwroot/core/src/**/*",
-    "wwwroot/widget/src/**/*"
+    "wwwroot/webgl/src/**/*"
   ],
   "exclude": [
-    "wwwroot/build",
-    "wwwroot/webgl"
+    "wwwroot/build"
   ]
 }
